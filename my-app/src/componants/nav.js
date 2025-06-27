@@ -2,8 +2,8 @@ export default function Nav(){
 
 return (
 
-    <div>
-        <ul>
+    <div className="hider">
+        <ul  >
             <li> Home</li>
             <li> About</li>
             <li> Contact</li>

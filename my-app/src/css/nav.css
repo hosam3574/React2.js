@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(0, 162, 255);
+}
+
+.hider{
+    display: flex;
+    font-size:30px;
+    
+}
+
+
+.hider>ul{
+    align-items: center;
+
+     display: flex;
+    font-size:30px
+}
+
+.hider >ul>li {   
+
+    text-decoration: none;
+     display: flex; 
+
+     margin-left: 30px;
+    
+}
+
+
