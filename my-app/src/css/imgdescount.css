@@ -1,5 +1,5 @@
 body{
-    background-color: whitesmoke;
+    background-color: white;
 }
 .imgs{
     display: flex;
@@ -13,12 +13,13 @@ height:450px;
 .imgtow{
 
 width: 600px;
-height: 250px;
-margin-left: 10px;
-margin-left: 1px;
-margin-top: 290px;
-margin-left: 150px;
-
+height: 200px;
+align-items: center;
+    margin-top: 10px;
+    float: left;
+    position: absolute;
+   margin-top: 290px;
+   left: 900px;
 
 }
 

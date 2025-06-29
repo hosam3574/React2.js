@@ -17,6 +17,9 @@ return(
     <br></br>
 <br></br>
 <br></br>
+<br></br>
+<br></br>
+<br></br>
 <div className="imgs">
 <img className="imgone" src=" https://i.pinimg.com/736x/f0/d1/a4/f0d1a478f39716c2cb86eeb4607501d3.jpg"></img>
 <img className="imgtow" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHx1jmRS7RJrV7zRmtl8PZdqptmfZyawws4A&s  "></img>
@@ -26,7 +29,7 @@ return(
 
 
 
-    <h1>hosam tradat </h1>
+    
     </>
 )
 
