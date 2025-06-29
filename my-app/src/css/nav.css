@@ -19,6 +19,12 @@ body{
     float: left;
     position: absolute;
     top: -3px;
-    left: 200px;
+    left: 150px;
+}
+
+
+.ShoppingCartIcon{
+    margin-left: 240px;
+  
 }
 

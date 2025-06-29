@@ -26,11 +26,12 @@ const Search = styled('div')(({ theme }) => ({
     backgroundColor: alpha(theme.palette.common.white, 0.25),
   },
   marginRight: theme.spacing(2),
-  marginLeft: 0,
+  marginLeft: '60px',
   width: '100%',
   [theme.breakpoints.up('sm')]: {
     marginLeft: theme.spacing(3),
     width: 'auto',
+    
   },
 }));
 
@@ -42,13 +43,18 @@ const SearchIconWrapper = styled('div')(({ theme }) => ({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  
+  marginLeft: '850px',
+  borderRadius: '8px',
+
+    top: '0',
+    backgroundColor:"blue",
+    border : '15px',
 }));
 
 const StyledInputBase = styled(InputBase)(({ theme }) => ({
-  color: 'red',
+  color: 'white',
   '& .MuiInputBase-input': {
-    padding: theme.spacing(1, 1, 1, 0),
+    padding: theme.spacing(1, 1, 1, 1),
     // vertical padding + font size from searchIcon
     paddingLeft: `calc(1em + ${theme.spacing(4)})`,
     transition: theme.transitions.create('width'),
@@ -122,7 +128,7 @@ export default function PrimarySearchAppBar() {
       open={isMobileMenuOpen}
       onClose={handleMobileMenuClose}
     >
-      <MenuItem>
+     <MenuItem>
         <IconButton size="large" aria-label="show 4 new mails" color="inherit">
           <Badge badgeContent={4} color="error">
             <MailIcon />
@@ -154,7 +160,7 @@ export default function PrimarySearchAppBar() {
         </IconButton>
         <p>Profile</p>
       </MenuItem>
-    </Menu>
+    </Menu> 
   );
 
   return (
@@ -166,7 +172,7 @@ export default function PrimarySearchAppBar() {
             edge="start"
             color="red"
             aria-label="open drawer"
-            sx={{ mr: 2 }}
+            sx={{ mr: 3 }}
           >
             <MenuIcon />
           </IconButton>
@@ -176,7 +182,7 @@ export default function PrimarySearchAppBar() {
             component="div"
             sx={{ display: { xs: 'none', sm: 'block' } }}
           >
-            <img className='img' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhbsm910k-KVODuIPon0Cc6wMAec3vWcBUmQ&s' />
+            <img  className='img' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhbsm910k-KVODuIPon0Cc6wMAec3vWcBUmQ&s' />
 
 
 
@@ -186,12 +192,12 @@ export default function PrimarySearchAppBar() {
               <SearchIcon />
             </SearchIconWrapper>
             <StyledInputBase
-              placeholder="Search…"
+              placeholder="Rechercher des produitd.."
               inputProps={{ 'aria-label': 'search' }}
               sx={{width:900}}
             />
           </Search>
-          <ShoppingCartIcon/>
+        <div className='ShoppingCartIcon'>  <ShoppingCartIcon/></div>
         </Toolbar>
       </AppBar>
       {renderMobileMenu}
