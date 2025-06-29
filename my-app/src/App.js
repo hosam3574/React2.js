@@ -1,16 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-import Nav from'./componants/nav'
+
 import './css/nav.css'
-import Counter from './componants/counter'
+// import Counter from './componants/counter'
+import Nav from './componants/nav'
+// import Imgdescount from './componants/imgdescount'
+
+
+
 function App() {
   return (
-    <div className="App">
-      <Nav/>
-      <Counter/>
-      <h1> Hi Frome React </h1>
-    </div>
-  );
+    <>
+        <Nav/>
+        {/* <Imgdescount/> */}
+
+    </>
+    
+  )
 }
 
 export default App;
