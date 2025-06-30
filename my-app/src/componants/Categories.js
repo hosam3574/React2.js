@@ -26,14 +26,16 @@ return(
 <br></br>
 <br></br>
 
-<div> 
+ 
 
-<button className="CATEGORIES"><h1>CATEGORIES</h1></button>
+<button className="CATEGORIES"><h1 className="h1">CATEGORIES</h1></button>
+
 
 </div>
 
-<h1>fdhfdhdd</h1>
-</div>
+
+
+
 
 
 

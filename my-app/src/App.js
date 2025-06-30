@@ -8,6 +8,7 @@ import'./css/categories.css'
 import Nav from './componants/nav'
  import Imgdescount from './componants/imgdescount'
  import  Categories from './componants/Categories'
+ import Imgs from'./componants/imgs'
 
 
 
@@ -17,6 +18,7 @@ function App() {
         <Nav/>
         <Imgdescount/> 
         <Categories/>
+        <Imgs/>
 
     </>
     
