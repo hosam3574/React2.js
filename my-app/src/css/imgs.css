@@ -1,0 +1,53 @@
+
+
+.all{
+    display: flex;
+}
+
+
+.part2{
+    border: 1px;
+    width: 200px;
+    margin-left: 60px;
+}
+
+
+.write1{
+
+color: white;
+background-color: red;
+border: 5px;
+border-radius: 10px;
+font-size: 15px;
+align-items: center;
+
+}
+
+.im{
+
+    border: 10px;
+    border-radius: 60px;
+
+}
+.stars{
+
+font-size: 100px;
+
+}
+
+
+
+
+.writeFc{
+    color: red;
+}
+
+
+
+
+/*    ***********************        */
+
+
+.alls{
+    display: flex;
+}

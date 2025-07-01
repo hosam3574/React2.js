@@ -1,0 +1,78 @@
+.finshall{
+    display: flex;
+    background-color: whitesmoke;
+   
+}
+
+.part1{
+    margin-left: 30px;
+}
+
+.part1>h1{
+font-size: 20px;
+
+}
+
+
+
+.part2{
+     margin-left: 100px;
+}
+.part2>h1{
+font-size: 19px;
+
+}
+
+
+.part3{
+ margin-left: 100px;
+}
+
+.part3>h1{
+    font-size: 23px;
+}
+
+
+
+
+
+
+.part4{
+     margin-left:100px;
+}
+
+.part4>h1{
+
+    font-size: 22px;
+}
+
+
+
+
+/*        ******************************************      */
+
+
+
+
+.cards{
+display: flex;
+background-color: whitesmoke;
+}
+.card1{
+width: 70px;
+margin-top: -20px;
+
+}
+
+.card2{
+width: 90px;
+height: 100px;
+margin-left: 20px;
+}
+
+.card3{
+
+width: 90px;
+height: 100px;
+margin-left: 20px;
+}
